@@ -40,7 +40,24 @@
         {
           "titulo": "Base para aprender os frameworks",
           "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+        }, 
+        {
+        "titulo":"Antes de ser frontend assista esse vídeo",
+        "url":"https: //www.youtube.com/watch?v=hGalqf_D8To"
+      },
+      {
+        "titulo": "As Skills de um Desenvolvedor Front-End ",
+        "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE"
+      },
+      {
+        "titulo": "O que estudar para conseguir um emprego com front-end",
+        "url": "https://www.youtube.com/watch?v=HxVGCjTtzOQ"
+      },
+      {
+        "titulo": "Quanto ganha um desenvolvedor front end ?",
+        "url": "https://www.youtube.com/watch?v=TMwoc4HvSQw"
+      }
+
       ]
     },
     {
@@ -100,24 +117,34 @@
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Animes",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Re:Zero 2ª temporada",
+          "url": "https://www.youtube.com/watch?v=PzOr_5bSdQU&feature=emb_title"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Sword Art Online 3ª temporada – Alicization – Parte 3",
+          "url": "https://www.youtube.com/watch?v=QKn4NHmldp8"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Maou Gakuin no Futekigousha",
+          "url": "https://www.youtube.com/watch?v=1xmzzF0XQEY&feature=emb_title"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Deca-Dence",
+          "url": "https://www.youtube.com/watch?v=CDfCpGU5cgc&feature=emb_title"
+        },
+        {
+          "titulo": "Enen no Shouboutai (Fire Force) 2ª temporada",
+          "url": "https://www.youtube.com/watch?v=JQc2JWkPgQo&feature=emb_title"
+        }, {
+          "titulo": "Kanojo, Okarishimasu",
+          "url": "https://www.youtube.com/watch?v=uIfxrlJg0Jw&feature=emb_title"
+        }, {
+          "titulo": "Monster Musume no Oisha-san",
+          "url": "https://www.youtube.com/watch?v=QQ5zFCoj6zQ&feature=emb_title"
         }
       ]
     },
