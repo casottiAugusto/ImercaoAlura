@@ -1,10 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./reset.css";
-import Home from "./pages/Home/App";
-import {BrowserRouter,Switch,Route} from 'react-router-dom';
-import CadastroVideo from "./pages/cadastro/Videos";
-import CadastroCategoria from "./pages/cadastro/categoria";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './reset.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home/App';
+import CadastroVideo from './pages/cadastro/Videos';
+import CadastroCategoria from './pages/cadastro/categoria';
 import erro from './pages/404';
 
 ReactDOM.render(
@@ -17,5 +17,5 @@ ReactDOM.render(
       <Route component={erro} exact />
     </Switch>
   </BrowserRouter>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );

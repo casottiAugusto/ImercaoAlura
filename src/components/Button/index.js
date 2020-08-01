@@ -1,6 +1,8 @@
 import style from 'styled-components';
+
 const Button = style.button`
     color: var(--white);
+    background: var(--black);
     border: 1px solid var(--white);
     box-sizing: border-box;
     cursor: pointer;
@@ -16,6 +18,5 @@ const Button = style.button`
     .&:hover,
     .&:focus {
     opacity: .5;
-}
 `;
 export default Button;

@@ -1,0 +1,28 @@
+{
+    "categorias":[
+        {
+            "id": 1,
+            "nome": "Backend",
+            "descricao": "",
+            "cor": ""
+        },
+          {
+              "id": 2,
+              "nome": "Front-End",
+              "descricao": "",
+              "cor": ""
+          },
+            {
+                "id": 3,
+                "nome": "Data Sciencit",
+                "descricao": "",
+                "cor": ""
+            },
+              {
+                  "id": 4,
+                  "nome": "Animes",
+                  "descricao": "",
+                  "cor": ""
+              }
+    ]
+}
