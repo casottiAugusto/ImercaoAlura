@@ -28,7 +28,7 @@ function Cadastrocategoria() {
     );
   }
   useEffect(() => {
-    const URL = window.location.hostname('localhost') ? 'httlçs://localhost:3000' : 'https://dev-samuraflixbackend.herokuapp.com/categorias';
+    const URL = window.location.hostname('localhost') ? 'httlçs://localhost:8080/categorias' : 'https://dev-samuraflixbackend.herokuapp.com/categorias';
     fetch(URL).then(async (respostaDoServidor) => {
       const respota = await respostaDoServidor.json();
       setCategorianova([...respota,
