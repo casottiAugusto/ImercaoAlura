@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormFild';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useFrom';
 
 function Cadastrocategoria() {
   const valoresIniciais = {
@@ -11,22 +11,9 @@ function Cadastrocategoria() {
     descricao: '',
     cor: '',
   };
+  const { handleChange, values, cleaForm } = useForm(valoresIniciais);
   const [categorias, setCategorianova] = useState([]);
 
-  const [values, setValues] = useState(valoresIniciais);
-  function setValue(chave, valor) {
-    // chave: nome, descricao, bla, bli
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
-  }
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
@@ -47,7 +34,7 @@ function Cadastrocategoria() {
         onSubmit={function handleSubmit(infosEnvneto) {
           infosEnvneto.preventDefault();
           setCategorianova([...categorias, values]);
-          setValue();
+          cleaForm();
         }}
       >
         <FormField
@@ -82,9 +69,9 @@ function Cadastrocategoria() {
       )}
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
+          <li key={`${categoria.titulo}`}>
             {' '}
-            {categoria.nome}
+            {categoria.titulo}
           </li>
         ))}
       </ul>
